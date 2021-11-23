@@ -1,0 +1,135 @@
+body {
+    background-image: url(../images/background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+
+h2::after {
+    display: block;
+    height: 2px;
+    width: 5%;
+    background-color: rgb(119, 217, 255);
+    content: "";
+    margin: 0 auto;
+    margin-top: 1%;
+}
+
+.bg-nav {
+    background-color: rgb(55, 174, 221);
+}
+
+.card {
+    background-color: unset;
+    border: 1px white solid;
+}
+
+.btn {
+    border-radius: 10px;
+}
+
+.list-group-item {
+    background-color: unset;
+    color: white;
+    border: 1px solid white;
+}
+
+.bg-pill-melvin {
+    background-color: rgb(55, 174, 221);
+}
+
+.btn-custom {
+    background-color: rgb(55, 174, 221);
+    color: white;
+}
+
+.btn-custom:hover {
+    background-color: rgb(0, 100, 139);
+    color: gray;
+}
+
+.card-header {
+    border-bottom: 1px solid white;
+}
+
+
+footer {
+    background-color: rgb(0, 100, 139);
+}
+
+/* MUHAMMAD */
+
+#muhammad .w-50- {
+    width: 50%;
+    max-width: 50%;
+    min-width: 50%;
+}
+
+#muhammad .bi-play-fill {
+    width: 32px;
+    height: 32px;
+    padding: 5px;
+    align-self: center;
+}
+
+#muhammad .bi-circle-fill {
+    position: absolute;
+    font-size: 18rem;
+    z-index: 1;
+
+}
+
+#muhammad .person-img img {
+    position: relative;
+    z-index: 2;
+}
+
+#muhammad .tooltip-hero {
+    position: absolute;
+    z-index: 4;
+    box-shadow: 0px 0px 20px 1px rgba(255, 193, 71, 0.62);
+    left: 0;
+    bottom: 18%;
+}
+
+#muhammad .bi-circle-fill::before {
+    content: "\f287";
+    box-shadow: 0 0 20px 0px;
+    border-radius: 50%;
+}
+
+#muhammad .bi-arrow-right {
+    padding-top: 3px;
+    padding-left: 10px;
+}
+
+
+#muhammad .inner-shadow- {
+    -webkit-box-shadow: inset 0px -6px 30px -12px #000000;
+    box-shadow: inset 0px -6px 30px -12px #000000;
+}
+
+#muhammad .contact-bg {
+    border-radius: 20px;
+}
+
+#muhammad .contact-img {
+    bottom: 0;
+    right: 20px;
+    width: 40% !important;
+    height: auto;
+}
+
+#muhammad .titre-color {
+    color: #ffffff !important;
+}
+
+#muhammad .text-muhammad {
+    color: #fca61f;
+
+}
+
+#muhammad .bg-muhammad {
+    background-color: rgb(55, 174, 221);
+}
